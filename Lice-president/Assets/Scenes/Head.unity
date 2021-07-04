@@ -1195,8 +1195,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.3997241, y: 0.17378226, z: -0.038109712, w: 0.8992042}
-  m_LocalPosition: {x: 34.4, y: 245.7, z: -193.4}
+  m_LocalRotation: {x: -0.16001292, y: -0.26900002, z: 0.04543563, w: -0.94866776}
+  m_LocalPosition: {x: -102.19491, y: 100.59294, z: -157.88443}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1824,7 +1824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf752aeb85644e249862eababfea2133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  getter: {fileID: 5980512346660266905, guid: f793faf760f79404dae8efc21775b4d8, type: 3}
+  getter: {fileID: 4733181194982935008, guid: 79d7e7af4a21aad4493c0d4a8a7d398b, type: 3}
   DestroySec: 5
   PriceGetter: 50
   EarnedPoints: 100
