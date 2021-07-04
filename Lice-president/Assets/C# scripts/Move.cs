@@ -18,6 +18,7 @@ public class Move : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, BadGuy.position) < Vector3.Distance(transform.position, EndPoint.position))
         {
+            var heading = BadGuy.position - transform.position;
             transform.position = Vector3.MoveTowards(transform.position, BadGuy.position, 1);
         }
         else
