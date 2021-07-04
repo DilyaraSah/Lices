@@ -13,7 +13,6 @@ public class GetterController : MonoBehaviour
     [Header("The number of points added after the getter's work")]
     public int EarnedPoints = 100;
     public GameObject resourcesPanel;
-    float timeLeft = 8;
 
     public void SpawnGetter()
     {
