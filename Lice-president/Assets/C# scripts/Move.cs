@@ -6,6 +6,8 @@ public class Move : MonoBehaviour
 {
     public Transform EndPoint;
     public Transform BadGuy;
+    public bool isStopped = true;
+    public float speed;
 
     // Start is called before the first frame update
     void Start()
@@ -18,12 +20,14 @@ public class Move : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, BadGuy.position) < Vector3.Distance(transform.position, EndPoint.position))
         {
-            var heading = BadGuy.position - transform.position;
-            transform.position = Vector3.MoveTowards(transform.position, BadGuy.position, 1);
+            var pos = BadGuy.position;
+            pos.x -= 30;
+            transform.position = Vector3.MoveTowards(transform.position, pos, 1);
         }
         else
         {
             transform.position = Vector3.MoveTowards(transform.position, EndPoint.position, 1);
         }
+
     }
 }
